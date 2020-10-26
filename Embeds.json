@@ -1,0 +1,134 @@
+{
+    "helpemsg": {
+        "embed": {
+            "title": "__**HELP**__",
+            "description": "Get all the commands a links here\n__**Commands:**__",
+            "color": "ORANGE",
+            "author": {
+              "name": "Ticker",
+              "url": "https://www.top.gg/bots/763077871815098418",
+              "icon_url": "https://cdn.discordapp.com/avatars/763077871815098418/48eb8b4a990d620dda1fae64963edfe7.webp"
+            },
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            },
+            "fields": [
+                {
+                    "name": "`$setup`",
+                    "value": "Only for when I'am first [invited](https://discord.com/oauth2/authorize?client_id=763077871815098418&scope=bot&permissions=2146950609) to the server. I make sure the person who sends the message is the server owner and if not I will deny the command and message the server owner who did it. If they are the server owner then I will set myself up"
+                },
+                {
+                    "name": "`$close`",
+                    "value": "Type in ticket if your the owner of the ticket and you must send it in the ticket channel. This command will close a ticket if you own the ticket."
+                },
+                {
+                    "name": "`$unsetup`",
+                    "value": "Only for if you dont want me anymore. If I have already been installed then will uninstall the stuff I puts on your server. I will no longer work on the server."
+                },
+                {
+                    "name": "`$help`",
+                    "value": "You just used the command. Why do you need to know what it does?",
+                    "inline": true
+                },
+                {
+                    "name": "`$ticket (reason here)`",
+                    "value": "This command is self exsplanatory. Reaplace the `(reason here)` part with what the ticket is for",
+                    "inline": true
+                },
+                {
+                    "name": "__**Urls:**__",
+                    "value": "[Pages](https://minecrafty999.wixsite.com/ticker/pages) - [Invite Me](https://discord.com/oauth2/authorize?client_id=763077871815098418&scope=bot&permissions=2146950609) - [Support Server](https://discord.com/invite/5t9fNAA) - [Vote For Me]() comming soon - [WebSite](https://minecrafty999.wixsite.com/ticker)"
+                }
+            ]
+        }
+    },
+    "nogemsg": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You need to be in a server that has me configured.",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "setupcemg": {
+        "embed": {
+            "title": "**TICKET SETUP**",
+            "color": "ORANGE",
+            "description": "Complete",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "setupwmsg": {
+        "embed": {
+            "title": "**WARNING**",
+            "color": "RED",
+            "description": "I you change the name of the support role I added I cant do my job and my lag out for other servers so please dont change the name and make sure if you move the role up or down my role must be above it. You may change the permissions but not the color or the name",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "setupremsg": {
+        "embed": {
+            "title": "**Remember**",
+            "color": "ORANGE",
+            "description": "Now tha you have setup me remember all tell the users on this server that you can only have 1 ticket at a time. My coder Minecrafty999 is right now working as fast as me can to make it som you can have more",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "setupfbremsg": {
+        "embed": {
+            "title": "**For best resault**",
+            "color": "BLUE",
+            "description": "For best resault put the ticket loging channel in a owner only category of some kind and remove the view permissions for the role @everone because sadly I cant make it privite from @everyone nither the ticket channel so remove the permission to veiw channels on the tickets category and give the permission veiw channels to ticket owner if there aren't any already",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "notoemsg": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You are not the owner on this server so you can't use this command",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text":"Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "notoftemsg": {
+        "embed": {
+            "title": "**ERROR**",
+            "color": "GREEN",
+            "description": "You are not the owner of this ticket",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "confoemsg": {
+        "embed": {
+            "title": "**CONFORMATION**",
+            "color": "RED",
+            "description": "Are you sure you want to do this? The will uninstall or unsetup me on your server",
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    }
+}
